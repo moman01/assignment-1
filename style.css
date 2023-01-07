@@ -89,7 +89,7 @@ header{
   line-height: 47px;
 }
 .plan{
-  
+  margin-bottom: 130px;
 }
 .my-plan{
   font-weight: 700;
@@ -122,19 +122,68 @@ color: #737272;
 }
 /* mindset  */
 .mindset{
-  text-align: center;
+  background: linear-gradient(90deg, #005FAC 0%, rgba(0, 95, 172, 0) 100%);
+  background-image: url(images/watch.png);
+  background-position: center center;
+  background-size: cover;
+  background-repeat: none;
+  position: relative;
+  /* height: 300px;
+  width: 1100px; */
+  width: 75%;
+  /* margin: 50px 110px; */
+  margin: auto;
+  border-radius: 10px;
+  min-height: 32vh;
+
 }
+.mindset-content{
+ position: absolute;
+ top: 15px;
+ left: 25px;
+ 
+}
+.mindset-content h2 {
+   width: 459px;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 47px;
+  color: #FFFFFF;
+  margin-bottom: 10px;
+}
+.call-btn {
+  background: #FFFFFF;
+  border: none;
+  border-radius: 6px;
+  padding: 15px 30px;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 23px;
+  text-align: center;
+  color: #005FAC;
+} 
+
 
 /* footer Section */
  footer{
   width: 98vw;
   height: 350px;
-  background-color: #151414;
+  ?
+  margin-top: 130px;
 }
-.subscribe{
+.right-footer{
 
 }
-.subscribe h4 {
+.subscribe-content{
+width: 325px;
+height: 204px;
+position: relative;
+top: 120px;
+left: 900px;
+text-align: left;
+
+}
+.right-footer h4 {
     font-weight: 600;
     font-size: 25px;
     line-height: 29px;
@@ -148,5 +197,6 @@ color: #FFFFFF;
   color: #FFFFFF;
   background: #005FAC;
   border-radius: 8px;
+  border: none;
   padding: 15px;
 }
